@@ -40,7 +40,7 @@ nav ul li a:hover{
 .firstsection{
     display: flex;
     justify-content: space-around;
-    margin: 80px 0;
+    margin: 25vh 0;
     align-items: center;
 }
 
@@ -69,5 +69,48 @@ nav ul li a:hover{
 .secondSection{
     max-width: 80vw;
     margin: auto;
-    background-color: red;
+    /* background-color: red; */
+    height: 80vh;
+}
+
+.secondSection h1{
+    font-size: 1.5rem;
+}
+
+.grey{
+    color: grey;
+}
+
+.secondSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 70px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 76px;
+    width: 150px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: yellow;
+    width: 150px;
+    font-size: 9px;
 }
