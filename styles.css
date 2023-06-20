@@ -405,7 +405,8 @@ footer{
 
 /* responsive */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) 
+{
       
 
   .firstsection{
@@ -428,7 +429,7 @@ footer{
     margin: auto;
     padding-top: 30px;
 }
-  }
+  
   .secondpageright img{
     margin-left: 34%
   }
@@ -486,24 +487,24 @@ footer{
     min-width: fit-content;
   }
 
-.fourth{
+  .fourth{
   flex-direction: column-reverse;
     margin: auto;
     height: 100%;
-}
-.fourthmain{
+  }
+  .fourthmain{
   flex-direction: column;
-}
-.fourth h1{
+  }
+    .fourth h1{
   text-align: center;
-}
-.centre{
+  }
+  .centre{
   text-align: center;
-}
+  }
 
-.container{
+  .container{
   padding: 20px;
-}
+  }
 
 
 }
