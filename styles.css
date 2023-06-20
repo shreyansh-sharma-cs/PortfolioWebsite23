@@ -148,6 +148,7 @@ nav ul li a:hover {
   width: 180px;
   font-size: 10px;
   left: -44px;
+  font-size: 12px;
 }
 
 .fourth{
@@ -389,6 +390,7 @@ footer{
   }
   .vertical-desc{
     left: 45px;
+    font-size: 12px;
   }
   .image-top{
     top: 93px;
@@ -421,7 +423,7 @@ footer{
     align-items: center;
     margin-bottom: 133.64;
     width: 464px;
-    height: 1200px;
+    height: 1500px;
 
   }
   body{
