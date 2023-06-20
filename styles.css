@@ -423,8 +423,11 @@ footer{
     margin: 6vh;
   }
   .aboutme{
-    width: 100%;
-    font-size: 14px;
+    width: 50%;
+    font-size: 18px;
+    margin: auto;
+    padding-top: 30px;
+}
   }
   .secondpageright img{
     margin-left: 34%
