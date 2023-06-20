@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background-color: rgb(0, 0, 40);
+  background: linear-gradient(45deg, blueviolet, lightgreen);
   color: white;
   font-family: "Oxygen", sans-serif;
   font-family: "Poppins", sans-serif;
@@ -81,7 +81,6 @@ nav ul li a:hover {
     justify-content: space-around;
     margin: 30vh 0;
     align-items: center;
-
 }
 .secondpagemain{
   display: flex;
@@ -303,6 +302,24 @@ nav ul li a:hover {
     width: 75%;
   } 
 }
+
+.container{
+  background: linear-gradient(45deg, blueviolet, lightgreen);
+  padding: 15px 9%;
+  padding-bottom: 100px;
+}
+.container .heading{
+  text-align: center;
+  padding-bottom: 15px;
+  color: #fff;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  font-size: 50px;
+}
+
+.container .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, );
+}
  
 
 footer{
@@ -402,7 +419,6 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-  
     margin-bottom: 133.64;
     width: 464px;
     height: 1200px;
